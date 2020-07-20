@@ -30,7 +30,7 @@ class Register extends React.Component {
         name: this.state.name
       })
     );
-    fetch('http://localhost:3000/register', {
+    fetch('https://fast-refuge-62631.herokuapp.com/register', {
       method: 'post',
       headers: { 'Content-Type': 'application/json; charset=UTF-8' },
       body: JSON.stringify({
